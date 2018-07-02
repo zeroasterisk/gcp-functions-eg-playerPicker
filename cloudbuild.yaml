@@ -1,4 +1,6 @@
 # https://cloud.google.com/functions/docs/bestpractices/testing#continuous_testing_and_deployment
+# NOTE: must add "Editor" to <project_id>@cloudbuild.gserviceaccount.com
+#       https://console.cloud.google.com/iam-admin/iam/project
 steps:
 # TODO: should pass tests too
 - name: 'gcr.io/cloud-builders/gcloud'
