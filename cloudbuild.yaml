@@ -2,5 +2,5 @@
 steps:
 # TODO: should pass tests too
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['beta', 'functions', 'deploy', 'playerPicker', 'playerPicker']
+  args: ['beta', 'functions', 'deploy', 'playerPicker-1', 'playerPicker']
   dir: 'functions/autodeploy'
