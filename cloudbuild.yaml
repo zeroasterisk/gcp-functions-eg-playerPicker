@@ -1,0 +1,6 @@
+# https://cloud.google.com/functions/docs/bestpractices/testing#continuous_testing_and_deployment
+steps:
+# TODO: should pass tests too
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['beta', 'functions', 'deploy', 'playerPicker', 'playerPicker']
+  dir: 'functions/autodeploy'
